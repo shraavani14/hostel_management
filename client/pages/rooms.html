@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Room Management</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <h2>Room Allocation</h2>
+
+  <input id="studentId" placeholder="Student ID"><br>
+  <input id="roomId" placeholder="Room ID"><br>
+
+  <button type="button" onclick="allocateRoom()">Allocate Room</button>
+
+  <hr>
+
+  <h2>View Rooms</h2>
+
+  <button onclick="getRooms()">Show Rooms</button>
+
+  <div id="roomList"></div>
+
+  <!-- JS -->
+  <script src="../js/room.js"></script>
+
+</body>
+</html>
